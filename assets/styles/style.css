@@ -27,7 +27,8 @@ body {
 }
 
 .nav-item a {
-    font-size: 2rem
+    font-size: 2rem;
+    color: #fff;
 }
 
 .navbar-toggler-icon {
@@ -271,4 +272,21 @@ body {
     border-radius: 15px;
     box-shadow: 2px 2px 5px #C95415;
 }
-/* página de conselhos */
+/* fim da página de conselhos */
+
+
+/* página sobre */
+
+.sobre-figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-figure img {
+    max-height: 100vh;
+    max-width: 100%;
+    padding: 10%;
+}
+
+/* fim da página sobre */
